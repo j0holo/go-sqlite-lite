@@ -1,8 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/bvinc/go-sqlite-lite/sqlite3?status.svg)](https://godoc.org/github.com/bvinc/go-sqlite-lite/sqlite3)
-[![Build Status](https://travis-ci.com/bvinc/go-sqlite-lite.svg?branch=master)](https://travis-ci.com/bvinc/go-sqlite-lite)
-[![Build status](https://ci.appveyor.com/api/projects/status/xk6fpk23wb5ppdhx?svg=true)](https://ci.appveyor.com/project/bvinc/go-sqlite-lite)
-[![Coverage Status](https://coveralls.io/repos/github/bvinc/go-sqlite-lite/badge.svg?branch=master)](https://coveralls.io/github/bvinc/go-sqlite-lite?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bvinc/go-sqlite-lite)](https://goreportcard.com/report/github.com/bvinc/go-sqlite-lite)
+[![GoDoc](https://pkg.go.dev/github.com/j0holo/go-sqlite-lite/sqlite3?status.svg)](https://pkg.go.dev/github.com/j0holo/go-sqlite-lite/sqlite3)
 
 # go-sqlite-lite
 
@@ -19,6 +15,7 @@ Most database drivers include a layer to work nicely with the Go `database/sql` 
 
 ## Releases
 
+* 2022-06-27 **v0.6.2** - SQLite version 3.38.5
 * 2019-05-01 **v0.6.1** - Bug fixes, authorizer callback support
 * 2019-05-01 **v0.6.0** - SQLite version 3.28.0
 * 2019-02-05 **v0.5.0** - SQLite version 3.26.0
@@ -35,7 +32,7 @@ Most database drivers include a layer to work nicely with the Go `database/sql` 
 ## Getting started
 
 ```go
-import "github.com/bvinc/go-sqlite-lite/sqlite3"
+import "github.com/j0holo/go-sqlite-lite/sqlite3"
 ```
 
 ### Acquiring a connection
@@ -271,4 +268,3 @@ If you've decided that pooling connections provides you with an advantage, it wo
 
 ## License
 This project is licensed under the BSD license.
-
